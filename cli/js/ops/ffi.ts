@@ -54,13 +54,13 @@ export function listForeignABIs(): string[] {
   return sendSync("op_ffi_list_abi");
 }
 
-export function bufferStart(buffer: SharedArrayBuffer): BigInt {
-  // TODO how to implement this with op?
-}
+// export function bufferStart(buffer: SharedArrayBuffer): BigInt {
+//   // TODO how to implement this with op?
+// }
 
-export function bufferFromPointer(
-  start: BigInt,
-  length: number
-): SharedArrayBuffer {
-  // TODO how to implement this with op?
-}
+// export function bufferFromPointer(
+//   start: BigInt,
+//   length: number
+// ): SharedArrayBuffer {
+//   // TODO how to implement this with op?
+// }
